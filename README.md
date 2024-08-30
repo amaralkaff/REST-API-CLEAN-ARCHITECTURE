@@ -1,6 +1,3 @@
-Here's a sample `README.md` file for your project:
-
-```markdown
 # Product Management API
 
 This is a Product Management API built using Node.js, Express, and Prisma ORM. It provides endpoints to manage products, including creating, reading, updating, and deleting products. The project is structured to follow best practices for scalable and maintainable applications.
@@ -177,9 +174,3 @@ Contributions are welcome! Please open an issue or submit a pull request with yo
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### Notes:
-- **Replace placeholder values**: Replace `yourusername` in the GitHub URL with your actual GitHub username.
-- **Environment Variables**: Adjust the environment variables to match your actual setup.
-- **License**: If your project has a specific license, include that license in the repository. If not, update or remove the license section accordingly.
