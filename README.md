@@ -52,7 +52,7 @@ This is a Product Management API built using Node.js, Express, and Prisma ORM. I
 2. Navigate to the project directory:
 
    ```bash
-   cd product-management-api
+   cd REST-API-CLEAN-ARCHITECTURE
    ```
 
 3. Install the dependencies:
