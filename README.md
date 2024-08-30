@@ -73,34 +73,35 @@ This is a Product Management API built using Node.js, Express, and Prisma ORM. I
 
 ```plaintext
 .
+├── node_modules               # Node.js modules
+├── prisma
+│   └── schema.prisma          # Prisma schema
 ├── src
 │   ├── config
-│   │   └── logger.js         # Logger configuration
-│   ├── controllers
-│   │   └── product.controller.js # Product controllers
+│   │   └── logger.js          # Logger configuration
 │   ├── db
-│   │   └── index.js          # Prisma client setup
+│   │   └── index.js           # Prisma client setup
 │   ├── middlewares
-│   │   ├── errorHandler.js   # Centralized error handling middleware
-│   │   ├── requestLogger.js  # Request logging middleware
-│   │   └── validate.js       # Validation middleware
-│   ├── repositories
-│   │   └── product.repository.js # Database queries using Prisma
-│   ├── routes
-│   │   └── product.routes.js # Product routes
-│   ├── services
-│   │   └── product.service.js # Business logic for products
-│   ├── validations
+│   │   ├── errorHandler.js    # Centralized error handling middleware
+│   │   ├── requestLogger.js   # Request logging middleware
+│   │   └── validate.js        # Validation middleware
+│   ├── product
+│   │   ├── product.controller.js # Product controllers
+│   │   ├── product.repository.js # Database queries using Prisma
+│   │   ├── product.routes.js  # Product routes
+│   │   ├── product.service.js # Business logic for products
 │   │   └── product.validation.js # Input validation logic
-│   ├── utils
-│   │   └── ApiError.js       # Custom error class
-│   └── index.js              # Application entry point
-├── prisma
-│   └── schema.prisma         # Prisma schema
-├── .env                      # Environment variables file
-├── .gitignore
-├── package.json
-└── README.md                 # This file
+│   └── utils
+│       ├── ApiError.js        # Custom error class
+│       └── index.js           # Utility functions (if any)
+├── .env                       # Environment variables file
+├── .env.development           # Environment variables for development
+├── .gitignore                 # Files and directories to ignore in git
+├── combined.log               # Log file for combined logs
+├── error.log                  # Log file for error logs
+├── package-lock.json          # Lock file for npm dependencies
+├── package.json               # Project dependencies and scripts
+└── README.md                  # Project documentation (this file)
 ```
 
 ## API Endpoints
