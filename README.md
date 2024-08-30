@@ -92,8 +92,8 @@ This is a Product Management API built using Node.js, Express, and Prisma ORM. I
 │   │   ├── product.service.js # Business logic for products
 │   │   └── product.validation.js # Input validation logic
 │   └── utils
-│       ├── ApiError.js        # Custom error class
-│       └── index.js           # Utility functions (if any)
+│   │   ├── ApiError.js        # Custom error class
+│   └── index.js               # Utility functions (if any)
 ├── .env                       # Environment variables file
 ├── .env.development           # Environment variables for development
 ├── .gitignore                 # Files and directories to ignore in git
